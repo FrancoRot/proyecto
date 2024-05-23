@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- <link href="styles/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="../styles/bootstrap.css" rel="stylesheet">
+    <link href="../styles/style-gallery.css" rel="stylesheet">
+    <style>
+        .nav-link {
+            display: flex;
+            align-items: center;
+        }
+        .nav-link i {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../pages/bienvenida.html"><img src="../images/logo.png" id="logo" width="120px"
+                    height="120px" class="d-inline-block"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-white fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="cliente.html"><i class="fa-solid fa-user"></i>CLIENTE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html"><i class="fa-solid fa-users"></i>NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="noticias.html"><i class="fa-solid fa-newspaper"></i>NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i>CONTACTO</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<main>
+    <section class="container my-4">
+
+        <h1>Consultanos!</h1>
+        <p>Contamos con atención personalizada para cada uno de nuestros más de 20 salones. Nuestra propuesta es integral y contamos con promociones y facilidades de pago durante todo el año. Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con vos para ayudarte y asesorarte para que puedas vivir la experiencia de la mejor manera.</p>
+
+        <h1 class="mb-3">Contacto</h1>
+        <div class="row">
+            <form id="formulario" action="" method="">
+                <fieldset>
+                    <legend class="mb-3">Datos personales</legend>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="nombre">Nombre:</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="text" id="nombre" name="nombre">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="apellido">Apellido:</label>
+                        <div class="col-sm-8">
+
+                            <input class="form-control" type="text" id="apellido" name="apellido">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="telefono">Teléfono:</label>
+                        <div class="col-sm-8"><input class="form-control" type="tel" id="telefono" name="telefono">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="mail">Email:</label>
+                        <div class="col-sm-8"><input class="form-control" type="email" id="mail" name="mail">
+                        </div>
+
+                    </div>
+                    <legend class="my-3">Evento</legend>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="invitados">Cantidad de invitados:</label>
+                        <div class="col-sm-8"><input class="form-control" type="number" id="invitados" name="invitados">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="tipo">Tipo de evento:</label>
+                        <div class="col-sm-8">
+                                <input type="checkbox" > 15 años
+                                <input type="checkbox" > Casamiento
+                                <input type="checkbox">  Egresados
+                                <input type="checkbox">  Corporativos
+                                <input type="checkbox">  Cumpleaños
+                                <input type="checkbox">  Informal
+                                <input type="checkbox">  Colectividad Judía
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="lugar">Barrio:</label>
+                        <div class="col-sm-8">
+                            <select class="form-select form-select-sm" id="lugar" name="lugar">
+                                <option selected>Seleccione...</option>
+                                <option value="Agronomía">Agronomía</option>
+                                <option value="Balvanera">Balvanera</option>
+                                <option value="Barracas">Barracas</option>
+                                <option value="Belgrano">Belgrano</option>
+                                <option value="Boedo">Boedo</option>
+                                <option value="Caballito">Caballito</option>
+                                <option value="Chacarita">Chacarita</option>
+                                <option value="Coghlan">Coghlan</option>
+                                <option value="Colegiales">Colegiales</option>
+                                <option value="Constitución">Constitución</option>
+                                <option value="Flores">Flores</option>
+                                <option value="Floresta">Floresta</option>
+                                <option value="La Boca">La Boca</option>
+                                <option value="La Paternal">La Paternal</option>
+                                <option value="Liniers">Liniers</option>
+                                <option value="Mataderos">Mataderos</option>
+                                <option value="Monte Castro">Monte Castro</option>
+                                <option value="Monserrat">Monserrat</option>
+                                <option value="Nueva Pompeya">Nueva Pompeya</option>
+                                <option value="Núñez">Núñez</option>
+                                <option value="Palermo">Palermo</option>
+                                <option value="Parque Avellaneda">Parque Avellaneda</option>
+                                <option value="Parque Chacabuco">Parque Chacabuco</option>
+                                <option value="Parque Chas">Parque Chas</option>
+                                <option value="Parque Patricios">Parque Patricios</option>
+                                <option value="Puerto Madero">Puerto Madero</option>
+                                <option value="Recoleta">Recoleta</option>
+                                <option value="Retiro">Retiro</option>
+                                <option value="Saavedra">Saavedra</option>
+                                <option value="San Cristóbal">San Cristóbal</option>
+                                <option value="San Nicolás">San Nicolás</option>
+                                <option value="San Telmo">San Telmo</option>
+                                <option value="Vélez Sársfield">Vélez Sársfield</option>
+                                <option value="Versalles">Versalles</option>
+                                <option value="Villa Crespo">Villa Crespo</option>
+                                <option value="Villa del Parque">Villa del Parque</option>
+                                <option value="Villa Devoto">Villa Devoto</option>
+                                <option value="Villa General Mitre">Villa General Mitre</option>
+                                <option value="Villa Lugano">Villa Lugano</option>
+                                <option value="Villa Luro">Villa Luro</option>
+                                <option value="Villa Ortúzar">Villa Ortúzar</option>
+                                <option value="Villa Pueyrredón">Villa Pueyrredón</option>
+                                <option value="Villa Real">Villa Real</option>
+                                <option value="Villa Riachuelo">Villa Riachuelo</option>
+                                <option value="Villa Santa Rita">Villa Santa Rita</option>
+                                <option value="Villa Soldati">Villa Soldati</option>
+                                <option value="Villa Urquiza">Villa Urquiza</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <br>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="comentarios">COMENTARIOS</label>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" name="comentarios" id="" cols="30" rows="10"
+                                placeholder=""></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="btn btn-primary mb-3" type="submit" value="ENVIAR">
+                        <input class="btn btn-primary mb-3" type="reset" value="BORRAR">
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </div>
+        <div>
+            <img src="../images/21.jpeg" alt="...">
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="fs-4 mb-2">
+        <i class="fa-brands fa-facebook mx-1"></i>
+        <i class="fa-brands fa-linkedin mx-1"></i>
+        <i class="fa-brands fa-square-x-twitter mx-1"></i>
+        <i class="fa-brands fa-square-whatsapp mx-1"></i>
+    </div>
+    <div class="mb-2"><small> Derecho de autor: GRUPO22 @2024 Argentina</small></div>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/03db7b7551.js" crossorigin="anonymous"></script>
+<script src="../js/contacto.js"></script>
+</body>
+
+</html>
