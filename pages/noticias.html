@@ -12,26 +12,15 @@
     <!-- <link href="styles/bootstrap.min.css" rel="stylesheet"> -->
     <link href="../styles/bootstrap.css" rel="stylesheet">
     <link href="../styles/style-gallery.css" rel="stylesheet">
-
-    <style>
-        .nav-link {
-            display: flex;
-            align-items: center;
-        }
-        .nav-link i {
-            margin-right: 8px;
-        }
-    </style>
 </head>
 
 <body>
-
     <header>
 
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../pages/bienvenida.html"><img src="../images/logo.png" id="logo" width="120px"
-                    height="120px" class="d-inline-block"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" id="logo" width="120px"
+                        height="120px" class="d-inline-block"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,7 +28,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav text-white fw-bold">
                         <li class="nav-item">
-                            <a class="nav-link" href="cliente.html"><i class="fa-solid fa-user"></i>CLIENTE</a>
+                            <a class="nav-link" href="../pages/cliente.html"><i class="fa-solid fa-user"></i>CLIENTE</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="nosotros.html"><i class="fa-solid fa-users"></i>NOSOTROS</a>
@@ -75,7 +64,7 @@
                                     <div class="card-body">
                                         <h4 id="titulo1" class="card-title">Artículo 1</h4>
                                         <p id="txtNoticias1" class="card-text">texto 1</p>
-                                        <button onclick="verPublicacion(0)">ver mas</button>
+                                        <button id="boton0" onclick="verPublicacion(0)">ver mas</button>
                                         <p  class="card-text"><small id="fechaNoticias1" class="text-body-secondary">Publicado
                                             dd/mm/aaaa</small></p>
                                         
@@ -96,7 +85,7 @@
                                     <div class="card-body">
                                         <h4 id="titulo2" class="card-title">Artículo 2</h4>
                                         <p id="txtNoticias2" class="card-text">texto 2</p>
-                                        <button onclick="verPublicacion(1)">ver mas</button>
+                                        <button id="boton1" onclick="verPublicacion(1)">ver mas</button>
                                         <p  class="card-text"><small id="fechaNoticias2" class="text-body-secondary">Publicado
                                             dd/mm/aaaa</small></p>
                                     </div>
@@ -116,7 +105,7 @@
                                     <div class="card-body">
                                         <h4 id="titulo3" class="card-title">Artículo 3</h4>
                                         <p id="txtNoticias3" class="card-text"> texto 3</p>
-                                        <button onclick="verPublicacion(2)">ver mas</button>
+                                        <button id="boton2" onclick="verPublicacion(2)">ver mas</button>
                                         <p class="card-text"><small  id="fechaNoticias3" class="text-body-secondary">Publicado
                                             dd/mm/aaaa</small></p>
                                     </div>
@@ -135,7 +124,7 @@
                                     <div class="card-body">
                                         <h4 id="titulo4" class="card-title">Artículo 4</h4>
                                         <p id="txtNoticias4" class="card-text">texto 4</p>
-                                        <button onclick="verPublicacion(3)">ver mas</button>
+                                        <button id="boton3" onclick="verPublicacion(3)">ver mas</button>
                                         <p class=""><small  id="fechaNoticias4"class="text-body-secondary">Publicado
                                                 dd/mm/aaaa</small></p>
                                     </div>
@@ -155,7 +144,7 @@
                                     <div class="card-body">
                                         <h4 id="titulo5" class="card-title">Artículo 5</h4>
                                         <p id="txtNoticias5" class="card-text">texto 5</p>
-                                        <button onclick="verPublicacion(4)">ver mas</button>
+                                        <button id="boton4" onclick="verPublicacion(4)">ver mas</button>
                                         <p class="card-text"><small id="fechaNoticias5" class="text-body-secondary">Publicado
                                             dd/mm/aaaa</small></p>
                                     </div>
@@ -197,10 +186,10 @@
 
     <footer>
         <div class="fs-4 mb-2">
-            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook mx-1"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin mx-1"></i></a>
-            <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-x-twitter mx-1"></i></a>
-            <a href="https://www.web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp mx-1"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook mx-1 text-white"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin mx-1 text-white"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-x-twitter mx-1 text-white"></i></a>
+            <a href="https://www.web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp mx-1 text-white"></i></a>
         </div>
         <div class="mb-2"><small> Derecho de autor: GRUPO22 @2024 Argentina</small></div>
     </footer>

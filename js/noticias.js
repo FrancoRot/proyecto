@@ -1,4 +1,4 @@
-let titulo1,titulo2,titulo3,titulo4,titulo5=null;
+/*let titulo1,titulo2,titulo3,titulo4,titulo5=null;
 let textoPublicacion1,textoPublicacion2,textoPublicacion3,textoPublicacion4,textoPublicacion5=null;
 let imagen1,imagen2,imagen3,imagen4,imagen5=null;
 let fechaNoticia1,fechaNoticia2,fechaNoticia3,fechaNoticia4,fechaNoticia5=null;
@@ -143,4 +143,48 @@ function publicacion(esLargo, publicacionN, texto, palabras20) {
         esLargo = true;
     }
     return esLargo;
+}*/
+//inicio();
+/*function inicio(){
+    console.log(noticias)
+    console.log(noticias.length)
+    noticias.forEach((noticia)=> {
+        console.log("id: " + noticia.id );
+    });
+}*/
+// Función para cargar las noticias en el HTML
+function cargarNoticias() {
+    for (let i = 0; i < noticias.length; i++) {
+        let noticia = noticias[i];
+        document.getElementById("titulo" + (i + 1)).textContent = noticia.titulo;
+        document.getElementById("txtNoticias" + (i + 1)).textContent = cortarTexto(noticia.texto)+ " ...";
+        document.getElementById("imagen" + (i + 1)).src = noticia.imagen;
+        document.getElementById("fechaNoticias" + (i + 1)).textContent = "Publicado " + noticia.fecha;
+    }
 }
+function verPublicacion(numero) {
+    let boton = document.getElementById("boton"+(numero))
+    let texto = document.getElementById("txtNoticias" + (numero + 1)).textContent;
+    let cantidadPalabras = contarPalabras(texto);
+    if (cantidadPalabras <= 21) {
+        boton.textContent = "ver menos";
+        document.getElementById("txtNoticias" + (numero + 1)).textContent = noticias[numero].texto;
+    } else {
+        boton.textContent = "ver mas";
+        document.getElementById("txtNoticias" + (numero + 1)).textContent = cortarTexto(noticias[numero].texto)+ " ...";
+    }
+
+}
+function cortarTexto(texto) {
+    let textoCortado = texto.split(" ").slice(0, 20).join(" ");
+    return textoCortado;
+}
+function contarPalabras(texto) {
+    // Utiliza el método split() para dividir el texto en palabras
+    let palabras = texto.trim().split(/\s+/);
+    // Devuelve la longitud del array de palabras
+    return palabras.length;
+}
+cargarNoticias();
+// Llama a la función cargarNoticias cuando el DOM esté completamente cargado
+//document.addEventListener("DOMContentLoaded", cargarNoticias);
