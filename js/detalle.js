@@ -15,7 +15,7 @@ function inicializacion(numero) {
     let imagen3 = document.getElementById(`imagen3`);
     let imagen4 = document.getElementById(`imagen4`);
     // carga de imagenes
-    imagen1.src = datos[parseInt(numero)].foto1;
+    imagen1.src ="."+ datos[parseInt(numero)].foto1;
     imagen2.src = datos[parseInt(numero)].foto2;
     imagen3.src = datos[parseInt(numero)].foto3;
     imagen4.src = datos[parseInt(numero)].foto4;

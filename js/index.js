@@ -1,5 +1,5 @@
 
-inicializacion();
+
 
 function inicializacion(){
     let imagen1= document.getElementById(`imagen1`);
@@ -18,7 +18,7 @@ function inicializacion(){
     imagen6.src= datos[5].foto1;
     imagen7.src= datos[6].foto1;
     imagen8.src= datos[7].foto1;
-
+    
    /* let direccion1 = document.getElementById("direccion1");
     let direccion2 = document.getElementById("direccion2");
     let direccion3 = document.getElementById("direccion3");
@@ -59,6 +59,8 @@ function hizoClick(numero){
     console.log("numero: " + numero);
     window.location.href = "pages/detalle.html?id=" + numero;
 }
+//inicializacion();
+document.addEventListener("DOMContentLoaded", inicializacion);
 
 /*  // Obtener el contenedor de los artículos
 var contenedorArticulos = document.getElementById("contenedor-articulos");
