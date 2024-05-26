@@ -2,7 +2,8 @@ const datos = [
     {
         "id": 0,
         "direccion": "Av. Rivadavia 8328, CABA",
-        "foto1": "../images/1_.jpeg",
+       // "foto1": "../images/1_.jpeg",
+       "foto1": "./images/1_.jpeg",
         "foto2": "../images/1_2.jpeg",
         "foto3": "../images/1_3.jpeg",
         "foto4": "../images/1_4.jpeg",
@@ -17,7 +18,7 @@ const datos = [
     {
         "id": 1,
         "direccion": "Av. Pres. Figueroa Alcorta 7285, CABA",
-        "foto1": "../images/2_.jpeg",
+        "foto1": "./images/2_.jpeg",
         "foto2": "../images/2_2.jpeg",
         "foto3": "../images/2_3.jpeg",
         "foto4": "../images/2_4.jpeg",
@@ -32,7 +33,7 @@ const datos = [
     {
         "id": 2,
         "direccion": "Crámer 1428, CABA",
-        "foto1": "../images/3_.jpeg",
+        "foto1": "./images/3_.jpeg",
         "foto2": "../images/3_2.jpeg",
         "foto3": "../images/3_3.jpeg",
         "foto4": "../images/3_4.jpeg",
@@ -47,7 +48,7 @@ const datos = [
     {
         "id": 3,
         "direccion": "Puan 644, CABA",
-        "foto1": "../images/4_.jpeg",
+        "foto1": "./images/4_.jpeg",
         "foto2": "../images/4_2.jpeg",
         "foto3": "../images/4_3.jpeg",
         "foto4": "../images/4_4.jpeg",
@@ -63,7 +64,7 @@ const datos = [
     {
         "id": 4,
         "direccion": "Av. Hipólito Yrigoyen 3304, CABA",
-        "foto1": "../images/5_.jpeg",
+        "foto1": "./images/5_.jpeg",
         "foto2": "../images/5_2.jpeg",
         "foto3": "../images/5_3.jpeg",
         "foto4": "../images/5_4.jpeg",
@@ -78,7 +79,7 @@ const datos = [
     {
         "id": 5,
         "direccion": "Valle 715, CABA",
-        "foto1": "../images/6_.jpeg",
+        "foto1": "./images/6_.jpeg",
         "foto2": "../images/6_2.jpeg",
         "foto3": "../images/6_3.jpeg",
         "foto4": "../images/6_4.jpeg",
@@ -93,7 +94,7 @@ const datos = [
     {
         "id": 6,
         "direccion": "Av. Corrientes 1900, CABA",
-        "foto1": "../images/7_.jpeg",
+        "foto1": "./images/7_.jpeg",
         "foto2": "../images/7_2.jpeg",
         "foto3": "../images/7_3.jpeg",
         "foto4": "../images/7_4.jpeg",
@@ -108,7 +109,7 @@ const datos = [
     {
         "id": 7,
         "direccion": "Luis María Drago 151, CABA",
-        "foto1": "../images/8_.jpeg",
+        "foto1": "./images/8_.jpeg",
         "foto2": "../images/8_2.jpeg",
         "foto3": "../images/8_3.jpeg",
         "foto4": "../images/8_4.jpeg",
