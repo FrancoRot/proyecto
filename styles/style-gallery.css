@@ -352,3 +352,12 @@ th {
 }
 
 /****** fin caracteristicas - detalle *********/
+/******     formulario - contacto     *********/
+
+.error-message {
+    font-size: 12px;
+    color: #ff0101; /* Color gris oscuro */
+    font-style: italic;
+}
+/****** Fin formulario - contacto ***********/
+
