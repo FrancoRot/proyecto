@@ -16,10 +16,29 @@ function isValidEmail(email) {
     return emailPattern.test(email);
 }
 
+function isValidNombre(nombre) {
+    // Utilizamos una expresión regular para validar el formato del nombre
+    let nombrePattern = /^[a-zA-ZáéíóúÁÉÍÓÚüÜ\s]+$/;
+    // estructura letras
 
+    return nombrePattern.test(nombre);
+}
 
+function isValidApellido(apellido) {
+    // Utilizamos una expresión regular para validar el formato del apellido
+    let apellidoPattern = /^[a-zA-ZáéíóúÁÉÍÓÚüÜ\s]+$/;
+    // estructura letras
 
+    return apellidoPattern.test(apellido);
+}
 
+function isValidTelefono(telefono) {
+    // Utilizamos una expresión regular para validar el formato del teléfono
+    let telefonoPattern = /^\d{7,14}$/;
+    // 7 a 14 numeros
+
+    return telefonoPattern.test(telefono);
+}
 
 document.addEventListener("DOMContentLoaded", ()=>{
     const form = document.getElementById("formularioContacto");
@@ -46,17 +65,17 @@ document.addEventListener("DOMContentLoaded", ()=>{
         let comentarios = document.getElementById("comentarios").value.trim(); 
         let isValid = true;
 
-        if (nombre === "") {
+        if (!isValidNombre(nombre)) {
             displayErrorMessage("nombreError", "Ingrese su nombre.");
             isValid = false;
         }
 
-        if (apellido === "") {
+        if (!isValidApellido(apellido)) {
             displayErrorMessage("apellidoError", "Ingrese su apellido.");
             isValid = false;
         }
 
-        if (telefono === "") {
+        if (!isValidTelefono(telefono)) {
             displayErrorMessage("telefonoError", "Ingrese su número de teléfono.");
             isValid = false;
         }
@@ -71,11 +90,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
             isValid = false;
         }
 
-        // if (document.getElementById("tipo").checked==false) {
-        //     displayErrorMessage("tipoError", "Ingrese un tipo de evento.");
-        //     isValid = false;
-        // }
-
         if(tipo == null) {   
             displayErrorMessage("tipoError", "Ingrese un tipo de evento.");
             isValid = false;
@@ -88,7 +102,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 
         if (comentarios === "") {
-            displayErrorMessage("comentariosError", "Ingrese un comenarios.");
+            displayErrorMessage("comentariosError", "Ingrese un comentario.");
             isValid = false;
         }
 
@@ -99,11 +113,3 @@ document.addEventListener("DOMContentLoaded", ()=>{
     });
 } );
 
-
-//         let username = document.getElementById("tipoError").value.trim();
-// let username = document.getElementById("lugarError").value.trim();
-
-//         if (password.length < 8) {
-//             displayErrorMessage("passwordError", "La contraseña debe tener al menos 8 caracteres.");
-//             isValid = false;
-//         }
