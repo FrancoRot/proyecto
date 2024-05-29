@@ -120,7 +120,34 @@ const datos = [
         "disponible": false,
         "descripcion": "Rufino Eventos. 10 años acompañando a cada persona en su momento especial. Salones en Palermo y Villa Crespo elegidos y ambientados con mucho amor y dedicación",
     },
-
+    {
+        "id": 8,
+        "direccion": "Luis María Drago 151, CABA",
+        "foto1": "./images/salon9.jpg",
+        "foto2": "../images/8_2.jpeg",
+        "foto3": "../images/8_3.jpeg",
+        "foto4": "../images/8_4.jpeg",
+        "presentacion": "Rufino Eventos. 10 años acompañando a cada persona en su momento especial. Salones en Palermo y Villa Crespo elegidos y ambientados con mucho amor y dedicación",
+        "precio": "$40.80",
+        "caracteristicas": [800, 8, true, true, true, true, true, true, true, false, true, true, true, true],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0617324825084!2d-58.43853772350344!3d-34.60260045744035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7272c22b5b%3A0x103bb69ef0a79dea!2sLuis%20Mar%C3%ADa%20Drago%20151%2C%20C1414%20Villa%20Crespo%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716152153805!5m2!1ses-419!2sar",
+        "disponible": false,
+        "descripcion": "Rufino Eventos. 10 años acompañando a cada persona en su momento especial. Salones en Palermo y Villa Crespo elegidos y ambientados con mucho amor y dedicación",
+    },
+    {
+        "id": 9,
+        "direccion": "Luis María Drago 151, CABA",
+        "foto1": "./images/salon8.jpg",
+        "foto2": "../images/8_2.jpeg",
+        "foto3": "../images/8_3.jpeg",
+        "foto4": "../images/8_4.jpeg",
+        "presentacion": "Rufino Eventos. 10 años acompañando a cada persona en su momento especial. Salones en Palermo y Villa Crespo elegidos y ambientados con mucho amor y dedicación",
+        "precio": "$40.80",
+        "caracteristicas": [800, 8, true, true, true, true, true, true, true, false, true, true, true, true],
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0617324825084!2d-58.43853772350344!3d-34.60260045744035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7272c22b5b%3A0x103bb69ef0a79dea!2sLuis%20Mar%C3%ADa%20Drago%20151%2C%20C1414%20Villa%20Crespo%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716152153805!5m2!1ses-419!2sar",
+        "disponible": false,
+        "descripcion": "Rufino Eventos. 10 años acompañando a cada persona en su momento especial. Salones en Palermo y Villa Crespo elegidos y ambientados con mucho amor y dedicación",
+    },
 
 ];
 
