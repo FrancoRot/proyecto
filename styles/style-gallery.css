@@ -62,7 +62,11 @@ footer {
 .navbar-nav .nav-link.active {
     color: var(--4-color);
 }
-
+/* animación index */
+.indexAnimacion {
+   animation-name: flash;
+   animation-delay: 2s;
+}
 
 
 /* cards home */
