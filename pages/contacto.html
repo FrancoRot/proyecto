@@ -56,132 +56,132 @@
 
             <h1 class="mb-3">Contacto</h1>
             <div class="row">
-                <form id="formularioContacto" action="" method="">
-                    <fieldset>
-                        <legend class="mb-3">Datos personales</legend>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="nombre">Nombre:</label>
-                            <div class="col-sm-8">
-                                <input class="form-control" type="text" id="nombre" name="nombre">
-                                <div id="nombreError" class="error-message"></div>
-                            </div>
+                <form id="formularioContacto" action=" method=">
+
+                    <h2 class="mb-3">Datos personales</h2>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="nombre">Nombre:</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="text" id="nombre" name="nombre">
+                            <div id="nombreError" class="error-message"></div>
                         </div>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="apellido">Apellido:</label>
-                            <div class="col-sm-8">
-                                <input class="form-control" type="text" id="apellido" name="apellido">
-                                <div id="apellidoError" class="error-message"></div>
-                            </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="apellido">Apellido:</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="text" id="apellido" name="apellido">
+                            <div id="apellidoError" class="error-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="telefono">Teléfono:</label>
+                        <div class="col-sm-8"><input class="form-control" type="tel" id="telefono" name="telefono">
+                            <div id="telefonoError" class="error-message"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="mail">Email:</label>
+                        <div class="col-sm-8"><input class="form-control" type="email" id="mail" name="mail">
+                            <div id="mailError" class="error-message"></div>
                         </div>
 
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="telefono">Teléfono:</label>
-                            <div class="col-sm-8"><input class="form-control" type="tel" id="telefono" name="telefono">
-                                <div id="telefonoError" class="error-message"></div>
-                            </div>
+                    </div>
+                    <h2 class="my-3">Evento</h2>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="invitados">Cantidad de invitados:</label>
+                        <div class="col-sm-8"><input class="form-control" type="number" id="invitados" name="invitados">
+                            <div id="invitadosError" class="error-message"></div>
                         </div>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="mail">Email:</label>
-                            <div class="col-sm-8"><input class="form-control" type="email" id="mail" name="mail">
-                                <div id="mailError" class="error-message"></div>
-                            </div>
-
-                        </div>
-                        <legend class="my-3">Evento</legend>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="invitados">Cantidad de invitados:</label>
-                            <div class="col-sm-8"><input class="form-control" type="number" id="invitados"
-                                    name="invitados">
-                                <div id="invitadosError" class="error-message"></div>
-                            </div>
-                        </div>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label">Tipo de evento:</label>
-                            <div class="col-sm-8 form-check"">
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo1" value="15 años">
-                                <label class="form-check-label1" for="tipo1"> 15 años</label>
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo2" value="Casamiento">
-                                <label class="form-check-label1" for="tipo2"> Casamiento</label>
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo3" value="Egresados">
-                                <label class="form-check-label1" for="tipo3"> Egresados</label>
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo4" value="Corporativos">
-                                <label class="form-check-label1" for="tipo4"> Corporativos</label>
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo5" value="Cumpleaños">
-                                <label class="form-check-label1" for="tipo5"> Cumpleaños</label>
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo6" value="Informal">
-                                <label class="form-check-label1" for="tipo6"> Informal</label>
-                                <input class="form-check-input1" type="radio" name="tipo" id="tipo7" value="Colectividad Judía">
-                                <label class="form-check-label1" for="tipo7"> Colectividad Judía</label>
-                                <div id="tipoError" class="error-message"></div>
-                            </div>
-                            
-                        </div>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="lugar">Barrio:</label>
-                            <div class="col-sm-8">
-                                <select class="form-select form-select-sm" id="lugar" name="lugar">
-                                    <option selected>Seleccione...</option>
-                                    <option value="Agronomía">Agronomía</option>
-                                    <option value="Balvanera">Balvanera</option>
-                                    <option value="Barracas">Barracas</option>
-                                    <option value="Belgrano">Belgrano</option>
-                                    <option value="Boedo">Boedo</option>
-                                    <option value="Caballito">Caballito</option>
-                                    <option value="Chacarita">Chacarita</option>
-                                    <option value="Coghlan">Coghlan</option>
-                                    <option value="Colegiales">Colegiales</option>
-                                    <option value="Constitución">Constitución</option>
-                                    <option value="Flores">Flores</option>
-                                    <option value="Floresta">Floresta</option>
-                                    <option value="La Boca">La Boca</option>
-                                    <option value="La Paternal">La Paternal</option>
-                                    <option value="Liniers">Liniers</option>
-                                    <option value="Mataderos">Mataderos</option>
-                                    <option value="Monte Castro">Monte Castro</option>
-                                    <option value="Monserrat">Monserrat</option>
-                                    <option value="Nueva Pompeya">Nueva Pompeya</option>
-                                    <option value="Núñez">Núñez</option>
-                                    <option value="Palermo">Palermo</option>
-                                    <option value="Parque Avellaneda">Parque Avellaneda</option>
-                                    <option value="Parque Chacabuco">Parque Chacabuco</option>
-                                    <option value="Parque Chas">Parque Chas</option>
-                                    <option value="Parque Patricios">Parque Patricios</option>
-                                    <option value="Puerto Madero">Puerto Madero</option>
-                                    <option value="Recoleta">Recoleta</option>
-                                    <option value="Retiro">Retiro</option>
-                                    <option value="Saavedra">Saavedra</option>
-                                    <option value="San Cristóbal">San Cristóbal</option>
-                                    <option value="San Nicolás">San Nicolás</option>
-                                    <option value="San Telmo">San Telmo</option>
-                                    <option value="Vélez Sársfield">Vélez Sársfield</option>
-                                    <option value="Versalles">Versalles</option>
-                                    <option value="Villa Crespo">Villa Crespo</option>
-                                    <option value="Villa del Parque">Villa del Parque</option>
-                                    <option value="Villa Devoto">Villa Devoto</option>
-                                    <option value="Villa General Mitre">Villa General Mitre</option>
-                                    <option value="Villa Lugano">Villa Lugano</option>
-                                    <option value="Villa Luro">Villa Luro</option>
-                                    <option value="Villa Ortúzar">Villa Ortúzar</option>
-                                    <option value="Villa Pueyrredón">Villa Pueyrredón</option>
-                                    <option value="Villa Real">Villa Real</option>
-                                    <option value="Villa Riachuelo">Villa Riachuelo</option>
-                                    <option value="Villa Santa Rita">Villa Santa Rita</option>
-                                    <option value="Villa Soldati">Villa Soldati</option>
-                                    <option value="Villa Urquiza">Villa Urquiza</option>
-
-                                </select>
-                                <div id="lugarError" class="error-message"></div>
-                            </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label">Tipo de evento:</label>
+                        <div class="col-sm-8 form-check">
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo1" value="15 años">
+                            <label class="form-check-label1" for="tipo1"> 15 años</label>
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo2" value="Casamiento">
+                            <label class="form-check-label1" for="tipo2"> Casamiento</label>
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo3" value="Egresados">
+                            <label class="form-check-label1" for="tipo3"> Egresados</label>
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo4" value="Corporativos">
+                            <label class="form-check-label1" for="tipo4"> Corporativos</label>
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo5" value="Cumpleaños">
+                            <label class="form-check-label1" for="tipo5"> Cumpleaños</label>
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo6" value="Informal">
+                            <label class="form-check-label1" for="tipo6"> Informal</label>
+                            <input class="form-check-input1" type="radio" name="tipo" id="tipo7"
+                                value="Colectividad Judía">
+                            <label class="form-check-label1" for="tipo7"> Colectividad Judía</label>
+                            <div id="tipoError" class="error-message"></div>
                         </div>
 
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="lugar">Barrio:</label>
+                        <div class="col-sm-8">
+                            <select class="form-select form-select-sm" id="lugar" name="lugar">
+                                <option selected>Seleccione...</option>
+                                <option value="Agronomía">Agronomía</option>
+                                <option value="Balvanera">Balvanera</option>
+                                <option value="Barracas">Barracas</option>
+                                <option value="Belgrano">Belgrano</option>
+                                <option value="Boedo">Boedo</option>
+                                <option value="Caballito">Caballito</option>
+                                <option value="Chacarita">Chacarita</option>
+                                <option value="Coghlan">Coghlan</option>
+                                <option value="Colegiales">Colegiales</option>
+                                <option value="Constitución">Constitución</option>
+                                <option value="Flores">Flores</option>
+                                <option value="Floresta">Floresta</option>
+                                <option value="La Boca">La Boca</option>
+                                <option value="La Paternal">La Paternal</option>
+                                <option value="Liniers">Liniers</option>
+                                <option value="Mataderos">Mataderos</option>
+                                <option value="Monte Castro">Monte Castro</option>
+                                <option value="Monserrat">Monserrat</option>
+                                <option value="Nueva Pompeya">Nueva Pompeya</option>
+                                <option value="Núñez">Núñez</option>
+                                <option value="Palermo">Palermo</option>
+                                <option value="Parque Avellaneda">Parque Avellaneda</option>
+                                <option value="Parque Chacabuco">Parque Chacabuco</option>
+                                <option value="Parque Chas">Parque Chas</option>
+                                <option value="Parque Patricios">Parque Patricios</option>
+                                <option value="Puerto Madero">Puerto Madero</option>
+                                <option value="Recoleta">Recoleta</option>
+                                <option value="Retiro">Retiro</option>
+                                <option value="Saavedra">Saavedra</option>
+                                <option value="San Cristóbal">San Cristóbal</option>
+                                <option value="San Nicolás">San Nicolás</option>
+                                <option value="San Telmo">San Telmo</option>
+                                <option value="Vélez Sársfield">Vélez Sársfield</option>
+                                <option value="Versalles">Versalles</option>
+                                <option value="Villa Crespo">Villa Crespo</option>
+                                <option value="Villa del Parque">Villa del Parque</option>
+                                <option value="Villa Devoto">Villa Devoto</option>
+                                <option value="Villa General Mitre">Villa General Mitre</option>
+                                <option value="Villa Lugano">Villa Lugano</option>
+                                <option value="Villa Luro">Villa Luro</option>
+                                <option value="Villa Ortúzar">Villa Ortúzar</option>
+                                <option value="Villa Pueyrredón">Villa Pueyrredón</option>
+                                <option value="Villa Real">Villa Real</option>
+                                <option value="Villa Riachuelo">Villa Riachuelo</option>
+                                <option value="Villa Santa Rita">Villa Santa Rita</option>
+                                <option value="Villa Soldati">Villa Soldati</option>
+                                <option value="Villa Urquiza">Villa Urquiza</option>
 
-                        <br>
-                        <div class="mb-3 row">
-                            <label class="col-sm-3 col-form-label" for="comentarios">COMENTARIOS</label>
-                            <div class="col-sm-8">
-                                <textarea class="form-control" name="comentarios" id="comentarios" cols="30" rows="10"
-                                    placeholder=""></textarea>
-                                <div id="comentariosError" class="error-message"></div>
+                            </select>
+                            <div id="lugarError" class="error-message"></div>
+                        </div>
+                    </div>
+
+
+                    <br>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label" for="comentarios">COMENTARIOS</label>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" name="comentarios" id="comentarios" cols="30" rows="10"
+                                placeholder="></textarea>
+                                <div id=" comentariosError" class="error-message"></div>
                             </div>
                         </div>
                         <br>
@@ -190,12 +190,12 @@
                             <input class="btn btn-primary mb-3" type="reset" value="BORRAR">
                         </div>
 
-                    </fieldset>
+                    
 
                 </form>
             </div>
             <div>
-            <img id="imgContacto" src="../images/21.jpeg" class="img-fluid rounded-start"; alt=" Una persona usando redes sociales"></img>
+            <img id="imgContacto" src="../images/21.jpeg" class="img-fluid rounded-start" alt="Una persona usando redes sociales">
             </div>
         </section>
 
