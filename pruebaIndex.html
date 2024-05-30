@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- link a animate css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-gallery.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" id="logo" width="120" height="120" class="d-inline-block" alt="logo">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-white fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/cliente.html"><i class="fa-solid fa-user"></i> CLIENTE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/nosotros.html"><i class="fa-solid fa-users"></i> NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/noticias.html"><i class="fa-solid fa-newspaper"></i> NOTICIAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html"><i class="fa-solid fa-envelope"></i> CONTACTO</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <br><p class="animate__animated indexAnimacion centrado">15 PROPIEDADES EN ALQUILER EN LA CIUDAD DE BUENOS AIRES</p>
+        <section id="seccionPublicaciones"  class="cards-df">
+
+            <!-- <article class="card-df">
+                <a href="#">
+                    <figure>
+
+                        <img id="imagen1" src="image1" onclick=hizoClick(0); alt="Salón con mesas y luz púrpura.">
+
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion1"></h3>
+                    <p id="presentacion1" >presentacion 1</p>
+                    <a href="pages/detalle.html?id=0">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen2" src="image2" onclick=hizoClick(1); alt="Salón con gente sentada afuera por la noche">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion2"></h3>
+                    <p id="presentacion2"> presentacion 2</p>
+                    <a href="pages/detalle.html?id=1">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen3" src="image3" onclick=hizoClick(2); alt="Salón con mesas, sillas y bolas de discoteca.">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion3"></h3>
+                    <p id="presentacion3">presentacion 3</p>
+                    <a href="pages/detalle.html?id=2">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen4" src="image4" onclick=hizoClick(3); alt="Salón con iluminación morada y mesas negras.">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion4"></h3>
+                    <p id="presentacion4">presentacion 4</p>
+                    <a href="pages/detalle.html?id=3">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen5" src="image5" onclick=hizoClick(4); alt="Salón alargado con montaje de mesas y sillas">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion5"></h3>
+                    <p id="presentacion5">presentacion 5</p>
+                    <a href="pages/detalle.html?id=4">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen6" src="image6" onclick=hizoClick(5); alt="Patio con mesas y sillas de colores vivos.">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion6"> </h3>
+                    <p id="presentacion6">presentacion 6</p>
+                    <a href="pages/detalle.html?id=5">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen7" src="image7" onclick=hizoClick(6); alt="Salón preparado con mesas y sillas">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion7"> </h3>
+                    <p id="presentacion7">presentacion 7</p>
+                    <a href="pages/detalle.html?id=5">leer mas</a>
+
+                </div>
+            </article>
+
+            <article class="card-df">
+                <a href="#">
+                    <figure>
+                        <img id="imagen8" src="image8" onclick=hizoClick(7); alt=" Pasillo de Salón con mesas, sillas y plantas">
+                    </figure>
+                </a>
+
+                <div class="card-df-content">
+                    <h3 id="direccion8"> </h3>
+                    <p id="presentacion8">presentacion 8</p>
+                    <a href="pages/detalle.html?id=5">leer mas</a>
+
+                </div>
+            </article>
+ -->
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="fs-4 mb-2">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook mx-1 text-white"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin mx-1 text-white"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-x-twitter mx-1 text-white"></i></a>
+            <a href="https://www.web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp mx-1 text-white"></i></a>
+        </div>
+        <div class="mb-2"><small> Derecho de autor: GRUPO22 @2024 Argentina</small></div>
+    </footer>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/03db7b7551.js" crossorigin="anonymous"></script>
+    <script src="./js/bd.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
