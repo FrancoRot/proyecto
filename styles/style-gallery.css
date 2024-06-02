@@ -33,9 +33,13 @@ body {
 background-color: white;
 justify-content: flex-end;
 align-items: flex-end;
-min-height: 100vh;
 background-color: white;
       }         
+
+
+.full-vh {
+min-height: calc(100vh - 29rem);
+}     
 
 /* footer */ 
       
