@@ -252,20 +252,20 @@ animation-delay: 2s;
 
 /*Nosotros */
 
-.about-us {
+.titConColor {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
 }
 
-.about-us-container {
+.titcolor-container {
   max-width: 800px;
   text-align: center;
   margin-bottom: 40px;
 }
 
-.about-us-container h2 {
+.titcolor-container h2 {
   font-size: 32px;
   font-weight: 700;
   color: #0077b6;
@@ -327,7 +327,6 @@ animation-delay: 2s;
   
   .formulario-container {
     max-width: 800px;
-    text-align: center;
     margin-bottom: 40px;
   }
   
@@ -342,7 +341,7 @@ animation-delay: 2s;
 
 
 /*fin Contacto */
-  
+
 /* detalle */
 
 .llenar-height {
@@ -443,9 +442,9 @@ footer {
     font-weight: bold;
     
 }
-#nombre,#apellido,#telefono,#email,#cantidad,#fecha,#tipo_evento{
+#nombre,#usuario,#password,#apellido,#telefono,#email,#mail,#cantidad,#invitados,#fecha,#tipo_evento,#lugar,#comentarios{
     /* Estilos de borde */
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 5px;
     /* Espaciado interno */
     padding: 10px;
@@ -461,7 +460,7 @@ footer {
     /* Transición suave */
     transition: border-color 0.3s ease;
     /* Cambio de color de borde al enfocar */
-    border-color: #007bff;
+    border-color: #67c3f8;
     /* Sombra más pronunciada al enfocar */
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
 }
