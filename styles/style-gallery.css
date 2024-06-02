@@ -478,8 +478,8 @@ footer {
     /* Estilos de borde */
     border: 1px solid #ccc;
     border-radius: 5px;
-    /* Espaciado interno */
-    padding: 10px;
+    /* Espaciado interno 
+    padding: 10px;*/
     /* Tamaño */
     width: 250px;
     /* Fuente y color de texto */
@@ -487,14 +487,14 @@ footer {
     color: #333;
     /* Fondo */
     background-color: #f8f8f8;
-    /* Sombras */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombras 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
     /* Transición suave */
     transition: border-color 0.3s ease;
     /* Cambio de color de borde al enfocar */
-    border-color: #67c3f8;
-    /* Sombra más pronunciada al enfocar */
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+    border-color: #b8d4e4;
+    /* Sombra más pronunciada al enfocar 
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);*/
 }
 
 
