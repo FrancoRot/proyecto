@@ -33,15 +33,7 @@ body {
 background-color: white;
 color: var(--main-color);
 
-      }
-
-.imagenZoom {
-display: inline-block;
-
-      }
-.imagenZoom:hover {
-border: 15;
-}            
+      }         
 
 /* footer */ 
       
@@ -101,8 +93,7 @@ position: relative;
 align-items: center;
 margin: 10px 0;
 flex-wrap: wrap;
-padding: 0px;
-              } 
+} 
       
 .menu-elem {
  list-style: none;
