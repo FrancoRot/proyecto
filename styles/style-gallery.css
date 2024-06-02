@@ -316,7 +316,33 @@ animation-delay: 2s;
 
 /* fin Nosotros */
 
+/*Contacto */
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .formulario-container {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .formulario-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0077b6;
+    margin-bottom: 20px;
+    text-align: justify; 
+    text-align-last: center;
+  }
+
+
+/*fin Contacto */
+  
 /* detalle */
 
 .llenar-height {
