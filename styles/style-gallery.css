@@ -36,7 +36,7 @@ color: var(--main-color);
       }
 
 .imagenZoom {
-display: inline-block !important;
+display: inline-block;
 
       }
 .imagenZoom:hover {
