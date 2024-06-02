@@ -30,44 +30,123 @@
 
 
 body {
-    background-color: white;
-    color: var(--main-color);
+background-color: white;
+color: var(--main-color);
 
       }
 
+.imagenZoom {
+display: inline-block !important;
 
-footer {
-    background-color: var(--3-color);
-    color: var(--secondary-color);
-    padding: 20px 30px;
-}
+      }
+.imagenZoom:hover {
+border: 15;
+}            
 
+/* footer */ 
+      
+.footer {
+position: relative;
+width: 100%;
+background-color: #2470a4;
+color: var(--secondary-color);
+min-height: 100px;
+padding: 20px 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+      }
+      
+.social-icon {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+margin: 10px 5px;
+flex-wrap: wrap;
+padding: 0px;
+      }
+      
+.icon-elem {
+list-style: none;
+      }
+      
+.icon {
+color: white;
+font-size: 32px;
+display: inline-block;
+margin: 0 10px;
+transition: 0.5s;
+      }
+      
+.icon:hover {
+transform: translateY(-10px);
+      }
 
+.menu {
+display: flex;
+justify-content: center;
+position: relative;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+padding: 0px;
+      }
+
+.menuTexto {
+display: flex;
+justify-content: center;
+position: relative;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+padding: 0px;
+              } 
+      
+.menu-elem {
+ list-style: none;
+      }
+.menu-icon {
+color: white;
+font-size: 20px;
+display: inline-block;
+text-decoration: none;
+margin: 5px 10px;
+opacity: 0.5;
+transition: 0.3s;
+      }
+      
+.menu-icon:hover {
+ opacity: 1;
+      }
+
+/* fin footer */      
 
 /* nav */
 
 .navbar {
-    --bs-navbar-padding-y: 0;
-    --bs-navbar-brand-padding-y: 0;
-    background-color: var(--3-color);
+--bs-navbar-padding-y: 0;
+--bs-navbar-brand-padding-y: 0;
+background-color: var(--3-color);
 }
 
 .nav-link {
-    color: var(--secondary-color);
+color: var(--secondary-color);
 }
 
 .nav-link:hover {
-    color: var(--4-color);
+color: var(--4-color);
 }
-
 
 .navbar-nav .nav-link.active {
-    color: var(--4-color);
+ color: var(--4-color);
 }
+
 /* animación index */
 .indexAnimacion {
-   animation-name: flash;
-   animation-delay: 2s;
+animation-name: flash;
+animation-delay: 2s;
 }
 
 
