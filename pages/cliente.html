@@ -2,75 +2,77 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ingreso - ¡Bienvenido Cliente de WELLVIP!</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link href="../styles/bootstrap.css" rel="stylesheet">
-    <link href="../styles/style-gallery.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso - ¡Bienvenido Cliente de WELLVIP!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="../styles/bootstrap.css" rel="stylesheet">
+  <link href="../styles/style-gallery.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-<header>
+  <header>
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../images/logo.png" id="logo" width="120" height="120" class="d-inline-block" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav text-white fw-bold">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> CLIENTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html"><i class="fa-solid fa-users"></i> NOSOTROS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="infoUtil.html"><i class="fa-solid fa-newspaper"></i> INFO UTIL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html"><i class="fa-solid fa-envelope"></i> CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/logo.png" id="logo" width="120" height="120" class="d-inline-block" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-white fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> CLIENTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html"><i class="fa-solid fa-users"></i> NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="infoUtil.html"><i class="fa-solid fa-newspaper"></i> INFO UTIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html"><i class="fa-solid fa-envelope"></i> CONTACTO</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-</header>
-<main>
-  <section class="titConColor full-vh">
-    <div class="titcolor-container">
-      <h2>¡Bienvenido de vuelta!</h2></div>
-        <div class="container centrado">
-                  <form id="formIngreso" method="get">
-                    <div class="mb-3">
-                        <label for="usuario" class="form-label">Usuario</label>
-                        <input type="text" class="form-control" id="usuario">
-                        <div id="usuarioError" class="error-message"></div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password">
-                        <div id="passwordError" class="error-message"></div>
-                    </div>                                            
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-        </div>
-        </section>
-</main>
-<br><br>
-<footer class="footer">
+  </header>
+  <main>
+    <section class="titConColor full-vh">
+      <div>
+        <h2 class="titulo-celeste">¡Bienvenido de vuelta!</h2>
+      </div>
+      <div class="container centrado">
+        <form id="formIngreso" method="get">
+          <div class="mb-3">
+            <label for="usuario" class="form-label">Usuario</label>
+            <input type="text" class="form-control" id="usuario">
+            <div id="usuarioError" class="error-message"></div>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">
+            <div id="passwordError" class="error-message"></div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <br><br>
+  <footer class="footer">
     <ul class="social-icon">
-        <li class="icon-elem">
+      <li class="icon-elem">
         <a href="https://www.youtube.com/" class="icon">
-            <ion-icon name="logo-youtube"></ion-icon></a>
+          <ion-icon name="logo-youtube"></ion-icon></a>
       </li>
       <li class="icon-elem">
         <a href="https://www.instagram.com/" class="icon">
@@ -110,13 +112,15 @@
         <a href="nosotros.html" class="menu-icon"> Nosotros </a>
       </li>
     </ul>
-    <p><small>Contactar con WELLVIP +54 (011) 5555 5555 <br>Toda la información y medidas provistas son aproximadas.<br>Las tarifas expresadas refieren a la última información recabada. Fotografías no vinculantes ni contractuales.</small></p>
+    <p><small>Contactar con WELLVIP +54 (011) 5555 5555 <br>Toda la información y medidas provistas son
+        aproximadas.<br>Las tarifas expresadas refieren a la última información recabada. Fotografías no vinculantes ni
+        contractuales.</small></p>
     <p><small>Derecho de autor: GRUPO22 @2024 Argentina</small></p>
-    </footer>
-        <script src="../js/bootstrap.bundle.min.js"></script>
-        <script src="https://kit.fontawesome.com/03db7b7551.js" crossorigin="anonymous"></script>
-        <script src="../js/cliente.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/03db7b7551.js" crossorigin="anonymous"></script>
+  <script src="../js/cliente.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 
 </html>
