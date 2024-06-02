@@ -41,6 +41,9 @@ body {
     min-height: calc(100vh - 29rem);
 }
 
+.justify {
+    text-align: justify;
+}
 /* footer */
 
 .footer {

@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link href="../styles/bootstrap.css" rel="stylesheet">
+    <link href="../styles/bootstrap.css" rel="stylesheet">
     <link href="../styles/style-gallery.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -46,11 +46,23 @@
 
     </header>
     <main>
-                <section class="formulario">
-    <div class="formulario-container">
-        <h2 class="titulo-celeste">
-            Consultanos!</h2> <p>Contamos con atención personalizada para cada uno de nuestros más de 20 salones. Nuestra propuesta es integral y contamos con promociones y facilidades de pago durante todo el año. Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con vos para ayudarte y asesorarte para que puedas vivir la experiencia de la mejor manera.</p>
-    
+        <section class="formulario">
+            <div class="formulario-container">
+                <h2 class="titulo-celeste">Consultanos!</h2>
+
+                <div class="row mb-4">
+
+                    <div class="col-12 col-sm-3">
+                        <img id="imgContacto" src="../images/21.jpeg" class="img-fluid"
+                            alt="Una persona usando redes sociales">
+                    </div>
+                    <div class="col-12 col-sm-9 tex">
+                        <p class="justify">Contamos con atención personalizada para cada uno de nuestros más de 20 salones. Nuestra
+                            propuesta es integral y contamos con promociones y facilidades de pago durante todo el año.
+                            Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con
+                            vos para ayudarte y asesorarte para que puedas vivir la experiencia de la mejor manera.</p>
+                    </div>
+                </div>
                 <form id="formularioContacto">
 
                     <div class="mb-3 row">
@@ -73,7 +85,7 @@
                         <div class="col-sm-8"><input class="form-control" type="tel" id="telefono" name="telefono">
                             <div id="telefonoError" class="error-message"></div>
                         </div>
-                       
+
                     </div>
                     <div class="mb-3 row">
                         <label class="col-sm-3 col-form-label" for="mail">Email:</label>
@@ -82,7 +94,7 @@
                         </div>
 
                     </div>
-                        <div class="mb-3 row">
+                    <div class="mb-3 row">
                         <label class="col-sm-3 col-form-label" for="invitados">Cantidad de invitados:</label>
                         <div class="col-sm-8"><input class="form-control" type="number" id="invitados" name="invitados">
                             <div id="invitadosError" class="error-message"></div>
@@ -108,7 +120,6 @@
                             <label class="form-check-label1" for="tipo7"> Colectividad Judía</label>
                             <div id="tipoError" class="error-message"></div>
                         </div>
-
                     </div>
                     <div class="mb-3 row">
                         <label class="col-sm-3 col-form-label" for="lugar">Barrio:</label>
@@ -169,80 +180,77 @@
                     </div>
 
 
-                    <br>
+
                     <div class="mb-3 row">
                         <label class="col-sm-3 col-form-label" for="comentarios">COMENTARIOS</label>
                         <div class="col-sm-8">
                             <textarea class="form-control" name="comentarios" id="comentarios" cols="30" rows="10"
                                 placeholder=""></textarea>
-                                <div id="comentariosError" class="error-message"></div>
-                            </div>
-                        </div>
-                        <br>
-                        <div>
-                            <input class="btn btn-primary mb-3" type="submit" value="ENVIAR">
-                            <input class="btn btn-primary mb-3" type="reset" value="BORRAR">
+                            <div id="comentariosError" class="error-message"></div>
                         </div>
                     </div>
 
-                    
-
+                    <div>
+                        <input class="btn btn-primary mb-3" type="submit" value="ENVIAR">
+                        <input class="btn btn-primary mb-3" type="reset" value="BORRAR">
+                    </div>
                 </form>
             </div>
-            <div>
-            <img id="imgContacto" src="../images/21.jpeg" class="img-fluid rounded-start" alt="Una persona usando redes sociales">
-            </div>
-        </div>
 
+
+
+        </section>
     </main>
 
     <footer class="footer">
         <ul class="social-icon">
             <li class="icon-elem">
-            <a href="https://www.youtube.com/" class="icon">
-                <ion-icon name="logo-youtube"></ion-icon></a>
-          </li>
-          <li class="icon-elem">
-            <a href="https://www.instagram.com/" class="icon">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li class="icon-elem">
-            <a href="https://www.web.whatsapp.com/" class="icon">
-              <ion-icon name="logo-whatsapp"></ion-icon>
-            </a>
-          </li>
-          <li class="icon-elem">
-            <a href="https://www.facebook.com" class="icon">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-          <li class="icon-elem">
-            <a href="mailto:info@wellvip.com" class="icon">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-          </li>
+                <a href="https://www.youtube.com/" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.instagram.com/" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.web.whatsapp.com/" class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.facebook.com" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="mailto:info@wellvip.com" class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
         </ul>
         <ul class="menu">
-          <li class="menu-elem">
-            <a href="../index.html" class="menu-icon"> Inicio </a>
-          </li>
-          <li class="menu-elem">
-            <a href="cliente.html" class="menu-icon"> Cliente </a>
-          </li>
-          <li class="menu-elem">
-            <a href="infoUtil.html" class="menu-icon"> Info útil </a>
-          </li>
-          <li class="menu-elem">
-            <a href="contacto.html" class="menu-icon"> Contacto </a>
-          </li>
-          <li class="menu-elem">
-            <a href="nosotros.html" class="menu-icon"> Nosotros </a>
-          </li>
+            <li class="menu-elem">
+                <a href="../index.html" class="menu-icon"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+                <a href="cliente.html" class="menu-icon"> Cliente </a>
+            </li>
+            <li class="menu-elem">
+                <a href="infoUtil.html" class="menu-icon"> Info útil </a>
+            </li>
+            <li class="menu-elem">
+                <a href="contacto.html" class="menu-icon"> Contacto </a>
+            </li>
+            <li class="menu-elem">
+                <a href="nosotros.html" class="menu-icon"> Nosotros </a>
+            </li>
         </ul>
-        <p><small>Contactar con WELLVIP +54 (011) 5555 5555 <br>Toda la información y medidas provistas son aproximadas.<br>Las tarifas expresadas refieren a la última información recabada. Fotografías no vinculantes ni contractuales.</small></p>
-            <p><small>Derecho de autor: GRUPO22 @2024 Argentina</small></p>
-      </footer>
+        <p><small>Contactar con WELLVIP +54 (011) 5555 5555 <br>Toda la información y medidas provistas son
+                aproximadas.<br>Las tarifas expresadas refieren a la última información recabada. Fotografías no
+                vinculantes ni contractuales.</small></p>
+        <p><small>Derecho de autor: GRUPO22 @2024 Argentina</small></p>
+    </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/03db7b7551.js" crossorigin="anonymous"></script>
     <script src="../js/contacto.js"></script>
