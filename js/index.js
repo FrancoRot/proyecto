@@ -9,7 +9,7 @@ function renderPublicacion(publicacion,contador,pagina){
   <a href="#">
       <figure>
 
-          <img id="imagen1" src="${publicacion.foto1}" onclick=hizoClick(${contador}); class="imagenZoom" alt="Salón.">
+          <img id="imagen1" src="${publicacion.foto1}" onclick=hizoClick(${contador}); alt="Salón.">
 
       </figure>
   </a>
