@@ -401,6 +401,9 @@ footer {
 .justificado {
     text-align: justify;
 }
+.micentrado {
+    text-align: center;
+}
 
 footer {
     text-align: center;
